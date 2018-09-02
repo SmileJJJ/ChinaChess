@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>China Chess</title>
+    <!-- <link rel='shortcut icon' href='1.ico' type='image/x-icon'> -->
+    <link rel="stylesheet" href="register.css" type="text/css" charset="UTF-8">
+</head>
+<body>
+    <div id='container'>
+        <h2>中国象棋-----------账号注册</h2>
+        <div class="left">
+            <form action="login" method="POST">
+                <p>
+                    <span class="spanText">邮箱</span>
+                    <input type="text" name="uphone" class="uText" id="email_text" placeholder="目前仅支持QQ邮箱"/>
+                    <span id="email_show" class="show_txt"></span>
+                </p>
+                <p>
+                    <span class="spanText">昵称</span>
+                    <input type="text" name="upwd" class="uText" id="name_text" placeholder="请输入您的游戏昵称(不超过8位)">
+                    <span id="name_show" class="show_txt"></span>
+                </p>
+                <p>
+                    <span class="spanText">密码</span>
+                    <input type="password" name="upwd" class="uText" id="password_text" placeholder="请设置一个6-20位密码">
+                    <span id="password_show" class="show_txt"></span>
+                </p>
+                <p>
+                    <span class="spanText">密码确认</span>
+                    <input type="password" name="upwd" class="uText" id="password_repid_text" placeholder="请重复输入密码">
+                    <span id="password_repid_show" class="show_txt"></span>
+                </p>
+                <p>
+                    <span class="spanText" id="check_pwd">验证码</span>
+                    <input type="text" name="upwd" class="uText_check" id="check_text"   placeholder="查看邮箱输入6位验证码">
+                    <input type="button" name="regist" class="get_check" id="get_check" value="获取验证码"> 
+                    <span id="check_show" class="show_txt"></span>
+                </p>
+                <p>
+                    <span class="spanText"></span>
+                    <input type="button" name="regist" class="regist" id="regist" value="注册">
+                    <a href="http://www.baidu.com" class="help_a">有问题，需要帮助？</a>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <script src="jquery-1.11.3.js"></script>
+    <script src="register.js"></script>
+</body>
+</html>

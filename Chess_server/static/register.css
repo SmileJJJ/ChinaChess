@@ -1,0 +1,107 @@
+body,h2,p{
+    margin: 0;
+}
+
+#container{
+    width: 1200px;
+    height: 675px;
+    margin: 0 auto;
+    background: url('../static/register.jpg')
+}
+
+#container h2{
+    font-weight: normal;
+    color: rgb(104, 102, 102);
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    padding-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.left{
+    float: left;
+    margin-top: 10px;
+    /* margin-right: 40px; */
+    margin-right: 40px;
+}
+
+/* 6.表单样式 */
+.left p{
+    margin-top: 20px;
+    height: 40px;
+}
+
+.left .spanText{
+    float: left;
+    width: 64px;
+    height: 38px;
+    text-align: right;
+    line-height: 40px;
+    color: rgb(104, 102, 102);
+    margin-right: 30px;
+}
+
+.left .uText{
+    border-radius: 50px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 40px;
+    border: 2px solid skyblue;
+    outline: none;
+    font-size: 16px;
+    color: #555;
+    padding: 0 12px;
+}
+.left .uText_check{
+    border-radius: 50px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 40px;
+    border: 2px solid skyblue;
+    outline: none;
+    font-size: 16px;
+    color: #555;
+    padding: 0 12px;
+}
+
+
+.login,.regist{
+    box-sizing: border-box;
+    width: 145px;
+    height: 39px;
+    border: 2px solid skyblue;
+    border-radius: 50px;
+    font-size: 18px;
+    color: skyblue;
+    background-color: #f5ffed;
+}
+
+
+.get_check{
+    box-sizing: border-box;
+    border: 2px solid skyblue;
+    width: 95px;
+    height: 39px;
+    border-radius: 50px;
+    font-size: 15px;
+    color: skyblue;
+    background-color: #f5ffed;
+    vertical-align:top;
+}
+
+form{
+    margin-left: 40px;
+}
+
+.help_a{
+    vertical-align:bottom;
+    color: #999;
+    font-size:15px;
+    margin-left: 11px;
+
+}
+
+.show_txt{
+    color: #999;
+}
